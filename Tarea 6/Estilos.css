@@ -1,0 +1,239 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto slab';
+}
+.contenedor{
+    padding:  60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.titulo{
+    color: brown;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+header{
+    width: 100%;
+    height: 600px;
+    background: rgba(113, 21, 199, 0.932);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+nav> a {
+     color: #fff;
+     font-weight: 300;
+     text-decoration: none;
+     margin-right: 10px;
+}
+nav> a:hover {
+ 
+    text-decoration:underline;
+ 
+}
+
+header .textos-header
+{
+display: flex;
+height: 430px;
+width: 100%;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+}
+header .textos-header h1
+{
+    font-size: 50px;
+    color: #fff;
+}
+header .textos-header h2
+{
+    font-size: 30px;
+    font-weight: 300 ;
+    color: #fff;
+}
+.wave{
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+  
+
+}
+.contenedor-sobre-nosotros p{
+    width: 90%;
+    height: 30px;
+    margin: 0.5rem;
+  
+
+}
+.contenedor-sobre-nosotros input{
+    color: darkcyan;
+    font-size: 16px;
+  
+
+}
+.contenedor-sobre-nosotros input{
+ 
+    font-size: 30px;
+  
+
+}
+.contenedor-sobre-nosotros button {
+    background-color: rgba(113, 21, 199, 0.932);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.contenedor-hobby li{
+   /*display: flex; 
+    justify-content: space-evenly;*/
+    text-align: center;
+
+}
+
+.contenedor-hobby h2{
+    /*display: flex; 
+     justify-content: space-evenly;*/
+     text-align: center;
+ 
+ }
+ .contenido-foto{
+    display: flex;
+ justify-content: center;
+ text-align: end;
+ background: rgba(113, 21, 199, 0.932);
+ }
+ header .textos-headerF
+ {
+ display: flex;
+ height: 430px;
+ width: 100%;
+ align-items: center;
+ justify-content: left;
+ flex-direction: column;
+ text-align:center;
+ }
+ header .textos-headerF h1
+ {
+     font-size: 50px;
+     color: #fff;
+ }
+.imagen-sobre-nosotros img{
+ 
+    height: 230px;
+    width: 330px;
+}
+.imagen-sobre-nosotros  {
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+ 
+}
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+}
+.contenido-textos p span{
+    background: rgba(113, 21, 199, 0.932);
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,.5);
+  margin-right: 5px;
+
+}
+footer{
+    background:rgba(113, 21, 199, 0.932);
+    padding: 60px 0 30px 0;
+    margin: auto;
+overflow: hidden;
+
+}
+.contedor-footer{
+    display:flex ;
+    width:  90%;
+    justify-content: space-evenly;
+    margin :auto;
+    padding-bottom: 50px;
+    border-bottom:  1px solid #ccc;
+    box-sizing: border-box;
+}
+.content-foo{
+    text-align: center;
+}
+.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+margin-bottom: 10px;
+}
+.content-foo h2{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+margin-bottom: 10px;
+}
+.content-foo p{
+    color: #fff;
+    border-bottom: 3px solid #af20d3;
+    padding-bottom: 5px;
+margin-bottom: 10px;
+}
+/*.content-foo h4{
+    color: #fff;
+    border-bottom: 3px solid dimgray;
+    padding-bottom: 5px;
+margin-bottom: 10px;
+}*/
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px;
+    color: #ccc;
+}
+/*header{
+    width: 100%;
+    height: 600px;
+    background: rgba(199, 21, 134, 0.932);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}*/
+
+  
+  .content-box {
+    box-sizing: content-box;
+  
+  }
+  
+  .border-box {
+    box-sizing: border-box;
+  }
+
